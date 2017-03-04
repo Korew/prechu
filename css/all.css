@@ -72,25 +72,48 @@ body {
 
 .slider-holder {
 	background-image: url(../images/slider-bg.jpg);
+	-webkit-background-size: 100%;
+	background-size: 100%;
 }
 
 .slider {
-	display: inline-block;
-	width: 800px;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
-.slider:before {
-	content: '';
-	display: inline-block;
-	background-image: url(../images/slide-left.png);
-	width: 25px;
-	height: 63px;
+.slide {
+	padding-top: 38px;
 }
 
-.slider:after {
-	content: '';
+.slide-img {
 	display: inline-block;
-	background-image: url(../images/slide-right.png);
-	width: 25px;
-	height: 63px;
+	margin-left: 60px;
+}
+
+.slide-desc {
+	display: inline-block;
+	vertical-align: top;
+	color: #ffffff;
+	margin-left: 100px;
+	margin-top: 105px;
+}
+
+.slide-title {
+	font-size: 42px;
+	line-height: 1.1;
+}
+
+.slide-text {
+	font-size: 26px;
+	margin-top: 20px;
+	line-height: 1.7;
+}
+
+.slide-button {
+	display: inline-block;
+	padding: 6px 12px 11px 45px;
+	background: url(../images/sign-up-icon.png) no-repeat #5094f2;
+	background-position: 11px 8px;
+	font-size: 22px;
+	border-radius: 3px;
 }
