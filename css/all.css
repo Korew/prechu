@@ -1,0 +1,96 @@
+@font-face {
+	font-family: 'SegoeWP';
+	src: url('../fonts/SegoeWP.ttf');
+}
+
+body {
+	font-family: "SegoeWP";;
+}
+
+
+.header {
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 89px;
+	padding: 0 10px;
+}
+
+.logo {
+	float: left;
+	margin-top: 20px;
+}
+
+.logo-sign {
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	background-color: #5094f2;
+	border-radius: 50%;
+	margin-right: 10px;
+	margin-top: 4px;
+	vertical-align: top;
+}
+
+.logo-sign img {
+	margin: 12px;
+}
+
+.logo-text {
+	display: inline-block;
+	color: #000000;
+	font-size: 42px;
+	font-weight: 300;
+	vertical-align: top;
+}
+
+.nav {
+	float: right;
+	margin-top: 32px;
+}
+
+.nav li {
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 42px;
+}
+
+.nav li:last-child {
+	margin-right: 0;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #6c6c6c;
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 13px;
+}
+
+.nav li.active a, nav li:hover a {
+	border-bottom: 3px solid #5094f2;
+}
+
+.slider-holder {
+	background-image: url(../images/slider-bg.jpg);
+}
+
+.slider {
+	display: inline-block;
+	width: 800px;
+}
+
+.slider:before {
+	content: '';
+	display: inline-block;
+	background-image: url(../images/slide-left.png);
+	width: 25px;
+	height: 63px;
+}
+
+.slider:after {
+	content: '';
+	display: inline-block;
+	background-image: url(../images/slide-right.png);
+	width: 25px;
+	height: 63px;
+}
