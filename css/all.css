@@ -71,7 +71,7 @@ body {
 }
 
 .slider-holder {
-	background-image: url(../images/slider-bg.jpg);
+	background: url(../images/slider-bg.jpg) no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
 }
