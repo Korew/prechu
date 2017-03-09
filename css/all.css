@@ -92,7 +92,7 @@ h2 {
 	display: none;
 }
 
-.slider-holder {
+.swiper-container {
 	background: url(../images/slider-bg.jpg) no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
@@ -104,12 +104,12 @@ h2 {
 	background-size: cover;
 }
 
-.slider {
+.swiper-wrapper {
 	max-width: 980px;
 	margin: 0 auto;
 }
 
-.slide {
+.swiper-slide {
 	padding: 3.9vw 0 0.8vw;
 }
 
@@ -280,7 +280,7 @@ h3 {
 }
 
 @media screen and (min-width: 980px) {
-	.slide {
+	.swiper-slide {
 		padding: 38px 0 8px;
 	}
 
@@ -389,8 +389,16 @@ h3 {
 		border: none;
 	}
 
+	.swiper-button-next {
+		display: none;
+	}
+
+	.swiper-button-prev {
+		display: none;
+	}
+
 	.slide-img {
-		margin-left: 10px;
+		margin-left: 37px;
 	}
 
 	.slide-img img {
