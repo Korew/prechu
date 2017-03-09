@@ -162,6 +162,14 @@ h2 {
 	background-color: #67a0ef;
 }
 
+.swiper-container .swiper-button-next {
+	background-image: url(../images/slide-right.png);
+}
+
+.swiper-container .swiper-button-prev {
+	background-image: url(../images/slide-left.png);
+}
+
 .border {
 	background: url(../images/border.png);
 	height: 8px;
