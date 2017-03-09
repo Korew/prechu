@@ -72,12 +72,16 @@ body {
 	padding-bottom: 13px;
 }
 
-.nav li.active a, nav li:hover a {
+.nav li.active-link a, nav li:hover a {
 	border-bottom: 3px solid #5094f2;
 }
 
-.nav li.active a {
+.nav li.active-link a {
 	cursor: default;
+}
+
+.navbar-toggle {
+	display: none;
 }
 
 .slider-holder {
@@ -322,4 +326,41 @@ h3 {
 	h3 {
 		font-size: 26px;
 	}
+}
+
+@media screen and (max-width: 768px) {
+
+	#navbar-collapse {
+		display: none;
+	}
+
+	.navbar-toggle {
+		display: block;
+		width: 57px;
+		height: 43px;
+		background-color: #5094f2;
+		border-radius: 2px;
+		padding: 10px;
+		clear: both;
+	}
+
+	.ico-bar {
+		display: block;
+		height: 5px;
+		background-color: #fff;
+		margin-bottom: 4px;
+	}
+
+	#navbar-collapse.collapse {
+		display: block;
+		position: absolute;
+		top: 89px;
+		right: 0;
+	}
+
+	#navbar-collapse.collapse li {
+		background-color: #5094f2;
+		display: block;
+	}
+	
 }
