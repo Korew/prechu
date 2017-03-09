@@ -5,3 +5,10 @@ $(function() {
 		$('#navbar-collapse').toggleClass('collapse');
 	})
 })
+
+$(document).ready(function () {
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      loop: true
+    })        
+  });
