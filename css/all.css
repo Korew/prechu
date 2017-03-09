@@ -166,6 +166,7 @@ h2 {
 	background: url(../images/border.png);
 	height: 8px;
 	margin-top: -8px;
+	position: relative;
 }
 
 .features-holder {
